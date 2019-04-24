@@ -34,6 +34,7 @@
 				nav ul li{
 					padding: 10px 50px 10px 50px;
 					background: rgb(120, 120, 255);
+					white-space: nowrap;
 				}
 				section{
 					width: calc(70% - 30px);
@@ -42,8 +43,33 @@
 					background: #55AA00;
 					min-height: 200px;
 				}
+
+				section .resumo-noticia .titulo{
+					grid-area: titulo;
+					line-height: 50px;
+				}
+
+				section .resumo-noticia .resumo{
+					grid-area: resumo;
+					text-align: justify;
+				}
+
+				section .resumo-noticia .data{
+					grid-area: data;
+					text-align: right;
+				}
+
+				section .resumo-noticia{
+					display: grid;
+					margin: 20px 20px 50px 20px;
+					grid-template-columns: 80% 20%;
+					grid-template-rows: 50px auto;
+					grid-template-areas: "titulo data" "resumo resumo";
+				}
+
 				aside{
 					width: calc(30% - 30px);
+					top: -36px;
 					margin: 15px;
 					display: inline-block;
 					background: rgb(0, 94, 170);
@@ -89,13 +115,49 @@
 					}
 				}
 
+				class ResumoNoticia extends React.Component{
+					constructor(props){
+						super(props);
+						this.titulo = null;
+						this.resumo = null;
+						this.data = null;
+					}
+
+					render(){
+						return (
+							<div className="resumo-noticia">
+								<h3 className="titulo">
+									{this.props.titulo}
+								</h3>
+								<p className="resumo">
+									{this.props.resumo}
+								</p>
+								<p className="data">
+									{this.props.data}
+								</p>
+							</div>
+						);
+					}
+				}
+
 				class Corpo extends React.Component{
+
+					renderNoticia(titulo, resumo, data){
+						return (
+							<ResumoNoticia titulo={titulo} resumo={resumo} data={data}/>
+						);
+					}
+
 					render(){
 						return (
 							<section>
-								Corpo
+								{this.renderNoticia("Titulo1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt bibendum accumsan. Nullam non tincidunt tortor, ut vehicula enim. In feugiat scelerisque leo. Vivamus varius quam vitae ipsum fringilla, vel gravida mauris egestas. Aenean molestie lacus aliquam augue feugiat consectetur. Aenean vel vulputate diam. Sed eleifend leo in massa scelerisque interdum. Suspendisse iaculis erat eget velit rutrum efficitur. Duis et dolor tortor. Suspendisse potenti. Etiam pulvinar sapien at nulla rhoncus, non rhoncus dui commodo. Curabitur sodales aliquam arcu, ac suscipit tellus ultrices at.", "01/02/19")}
+								{this.renderNoticia("Titulo1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt bibendum accumsan. Nullam non tincidunt tortor, ut vehicula enim. In feugiat scelerisque leo. Vivamus varius quam vitae ipsum fringilla, vel gravida mauris egestas. Aenean molestie lacus aliquam augue feugiat consectetur. Aenean vel vulputate diam. Sed eleifend leo in massa scelerisque interdum. Suspendisse iaculis erat eget velit rutrum efficitur. Duis et dolor tortor. Suspendisse potenti. Etiam pulvinar sapien at nulla rhoncus, non rhoncus dui commodo. Curabitur sodales aliquam arcu, ac suscipit tellus ultrices at.", "01/02/19")}
+								{this.renderNoticia("Titulo1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt bibendum accumsan. Nullam non tincidunt tortor, ut vehicula enim. In feugiat scelerisque leo. Vivamus varius quam vitae ipsum fringilla, vel gravida mauris egestas. Aenean molestie lacus aliquam augue feugiat consectetur. Aenean vel vulputate diam. Sed eleifend leo in massa scelerisque interdum. Suspendisse iaculis erat eget velit rutrum efficitur. Duis et dolor tortor. Suspendisse potenti. Etiam pulvinar sapien at nulla rhoncus, non rhoncus dui commodo. Curabitur sodales aliquam arcu, ac suscipit tellus ultrices at.", "01/02/19")}
+								{this.renderNoticia("Titulo1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt bibendum accumsan. Nullam non tincidunt tortor, ut vehicula enim. In feugiat scelerisque leo. Vivamus varius quam vitae ipsum fringilla, vel gravida mauris egestas. Aenean molestie lacus aliquam augue feugiat consectetur. Aenean vel vulputate diam. Sed eleifend leo in massa scelerisque interdum. Suspendisse iaculis erat eget velit rutrum efficitur. Duis et dolor tortor. Suspendisse potenti. Etiam pulvinar sapien at nulla rhoncus, non rhoncus dui commodo. Curabitur sodales aliquam arcu, ac suscipit tellus ultrices at.", "01/02/19")}
+								{this.renderNoticia("Titulo1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt bibendum accumsan. Nullam non tincidunt tortor, ut vehicula enim. In feugiat scelerisque leo. Vivamus varius quam vitae ipsum fringilla, vel gravida mauris egestas. Aenean molestie lacus aliquam augue feugiat consectetur. Aenean vel vulputate diam. Sed eleifend leo in massa scelerisque interdum. Suspendisse iaculis erat eget velit rutrum efficitur. Duis et dolor tortor. Suspendisse potenti. Etiam pulvinar sapien at nulla rhoncus, non rhoncus dui commodo. Curabitur sodales aliquam arcu, ac suscipit tellus ultrices at.", "01/02/19")}
 							</section>
-						)
+						);
 					}
 				}
 
