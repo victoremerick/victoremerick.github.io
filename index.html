@@ -15,10 +15,11 @@
 					position: relative;
 				}
 
-				#root{
+				.teste{
 					display: grid;
-					grid-auto-columns: 80% calc(80% - 230px)
-
+					grid-template-columns: calc(100% - 300px) 300px;
+					grid-template-rows: auto auto auto auto;
+					grid-template-areas: "cabecalho cabecalho" "menu menu" "conteudo sidebar" "rodape rodape";
 				}
 
 				header{
@@ -46,7 +47,6 @@
 				}
 				section{
 					grid-area: conteudo;
-					width: calc(70% - 30px);
 					margin: 15px;
 					display: inline-block;
 					background: #55AA00;
@@ -56,30 +56,80 @@
 				section .resumo-noticia .titulo{
 					grid-area: titulo;
 					line-height: 50px;
+					font-size: 20pt;
 				}
 
 				section .resumo-noticia .resumo{
 					grid-area: resumo;
 					text-align: justify;
+					font-size: 12pt;
 				}
 
 				section .resumo-noticia .data{
 					grid-area: data;
 					text-align: right;
+					font-size: 10pt;
 				}
 
 				section .resumo-noticia{
 					display: grid;
-					margin: 20px 20px 50px 20px;
+					cursor: pointer;
+					padding: 20px 20px 20px 20px;
+					margin-bottom: 30px;
+					background: transparent;
+					transition: background-color 500ms ease;
+					font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 					grid-template-columns: 80% 20%;
 					grid-template-rows: 50px auto;
 					grid-template-areas: "titulo data" "resumo resumo";
 				}
 
+				section .resumo-noticia-imagem .titulo{
+					grid-area: titulo;
+					line-height: 50px;
+					font-size: 20pt;
+				}
+
+				section .resumo-noticia-imagem .resumo{
+					grid-area: resumo;
+					text-align: justify;
+					font-size: 12pt;
+				}
+
+				section .resumo-noticia-imagem .data{
+					grid-area: data;
+					text-align: right;
+					font-size: 10pt;
+				}
+
+				section .resumo-noticia-imagem .imagem{
+					grid-area: imagem;
+					text-align: right;
+					font-size: 10pt;
+					width: 100%;
+					height: 100%;
+				}
+
+				section .resumo-noticia-imagem{
+					display: grid;
+					grid-gap: 15px;
+					cursor: pointer;
+					padding: 20px 20px 20px 20px;
+					margin-bottom: 30px;
+					background: transparent;
+					transition: background-color 500ms ease;
+					font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+					grid-template-columns: 20% calc(60% - 30px) 20%;
+					grid-template-rows: 50px auto;
+					grid-template-areas: "imagem titulo data" " imagem resumo resumo";
+				}
+
+				section .resumo-noticia:hover, section .resumo-noticia-imagem:hover{
+					background: rgba(255, 255, 255, 0.226);
+				}
+
 				aside{
 					grid-area: sidebar;
-					width: calc(30% - 30px);
-					top: -36px;
 					margin: 15px;
 					display: inline-block;
 					background: rgb(0, 94, 170);
@@ -151,6 +201,33 @@
 					}
 				}
 
+				class ResumoNoticiaImagem extends React.Component{
+					constructor(props){
+						super(props);
+						this.titulo = null;
+						this.resumo = null;
+						this.data = null;
+						this.imagem = null;
+					}
+
+					render(){
+						return (
+							<div className="resumo-noticia-imagem">
+								<img className="imagem" src={this.props.imagem} />
+								<h3 className="titulo">
+									{this.props.titulo}
+								</h3>
+								<p className="resumo">
+									{this.props.resumo}
+								</p>
+								<p className="data">
+									{this.props.data}
+								</p>
+							</div>
+						);
+					}
+				}
+
 				class Corpo extends React.Component{
 
 					renderNoticia(titulo, resumo, data){
@@ -159,12 +236,18 @@
 						);
 					}
 
+					renderNoticiaImagem(titulo, resumo, data, imagem = ""){
+						return (
+							<ResumoNoticiaImagem titulo={titulo} resumo={resumo} data={data} imagem={imagem}/>
+						);
+					}
+
 					render(){
 						return (
 							<section>
+								{this.renderNoticiaImagem("Titulo1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt bibendum accumsan. Nullam non tincidunt tortor, ut vehicula enim. In feugiat scelerisque leo. Vivamus varius quam vitae ipsum fringilla, vel gravida mauris egestas. Aenean molestie lacus aliquam augue feugiat consectetur. Aenean vel vulputate diam. Sed eleifend leo in massa scelerisque interdum. Suspendisse iaculis erat eget velit rutrum efficitur. Duis et dolor tortor. Suspendisse potenti. Etiam pulvinar sapien at nulla rhoncus, non rhoncus dui commodo. Curabitur sodales aliquam arcu, ac suscipit tellus ultrices at.", "01/02/19", "")}
 								{this.renderNoticia("Titulo1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt bibendum accumsan. Nullam non tincidunt tortor, ut vehicula enim. In feugiat scelerisque leo. Vivamus varius quam vitae ipsum fringilla, vel gravida mauris egestas. Aenean molestie lacus aliquam augue feugiat consectetur. Aenean vel vulputate diam. Sed eleifend leo in massa scelerisque interdum. Suspendisse iaculis erat eget velit rutrum efficitur. Duis et dolor tortor. Suspendisse potenti. Etiam pulvinar sapien at nulla rhoncus, non rhoncus dui commodo. Curabitur sodales aliquam arcu, ac suscipit tellus ultrices at.", "01/02/19")}
-								{this.renderNoticia("Titulo1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt bibendum accumsan. Nullam non tincidunt tortor, ut vehicula enim. In feugiat scelerisque leo. Vivamus varius quam vitae ipsum fringilla, vel gravida mauris egestas. Aenean molestie lacus aliquam augue feugiat consectetur. Aenean vel vulputate diam. Sed eleifend leo in massa scelerisque interdum. Suspendisse iaculis erat eget velit rutrum efficitur. Duis et dolor tortor. Suspendisse potenti. Etiam pulvinar sapien at nulla rhoncus, non rhoncus dui commodo. Curabitur sodales aliquam arcu, ac suscipit tellus ultrices at.", "01/02/19")}
-								{this.renderNoticia("Titulo1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt bibendum accumsan. Nullam non tincidunt tortor, ut vehicula enim. In feugiat scelerisque leo. Vivamus varius quam vitae ipsum fringilla, vel gravida mauris egestas. Aenean molestie lacus aliquam augue feugiat consectetur. Aenean vel vulputate diam. Sed eleifend leo in massa scelerisque interdum. Suspendisse iaculis erat eget velit rutrum efficitur. Duis et dolor tortor. Suspendisse potenti. Etiam pulvinar sapien at nulla rhoncus, non rhoncus dui commodo. Curabitur sodales aliquam arcu, ac suscipit tellus ultrices at.", "01/02/19")}
+								{this.renderNoticiaImagem("Titulo1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt bibendum accumsan. Nullam non tincidunt tortor, ut vehicula enim. In feugiat scelerisque leo. Vivamus varius quam vitae ipsum fringilla, vel gravida mauris egestas. Aenean molestie lacus aliquam augue feugiat consectetur. Aenean vel vulputate diam. Sed eleifend leo in massa scelerisque interdum. Suspendisse iaculis erat eget velit rutrum efficitur. Duis et dolor tortor. Suspendisse potenti. Etiam pulvinar sapien at nulla rhoncus, non rhoncus dui commodo. Curabitur sodales aliquam arcu, ac suscipit tellus ultrices at.", "01/02/19")}
 								{this.renderNoticia("Titulo1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt bibendum accumsan. Nullam non tincidunt tortor, ut vehicula enim. In feugiat scelerisque leo. Vivamus varius quam vitae ipsum fringilla, vel gravida mauris egestas. Aenean molestie lacus aliquam augue feugiat consectetur. Aenean vel vulputate diam. Sed eleifend leo in massa scelerisque interdum. Suspendisse iaculis erat eget velit rutrum efficitur. Duis et dolor tortor. Suspendisse potenti. Etiam pulvinar sapien at nulla rhoncus, non rhoncus dui commodo. Curabitur sodales aliquam arcu, ac suscipit tellus ultrices at.", "01/02/19")}
 								{this.renderNoticia("Titulo1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt bibendum accumsan. Nullam non tincidunt tortor, ut vehicula enim. In feugiat scelerisque leo. Vivamus varius quam vitae ipsum fringilla, vel gravida mauris egestas. Aenean molestie lacus aliquam augue feugiat consectetur. Aenean vel vulputate diam. Sed eleifend leo in massa scelerisque interdum. Suspendisse iaculis erat eget velit rutrum efficitur. Duis et dolor tortor. Suspendisse potenti. Etiam pulvinar sapien at nulla rhoncus, non rhoncus dui commodo. Curabitur sodales aliquam arcu, ac suscipit tellus ultrices at.", "01/02/19")}
 							</section>
@@ -195,7 +278,7 @@
 				class App extends React.Component {
 					render() {
 						return (
-						<div>
+						<div className="teste">
 							<HeaderApp/>
 							<Menu />
 							<Corpo />
