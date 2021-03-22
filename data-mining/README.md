@@ -5,6 +5,7 @@
 ![Badge](https://img.shields.io/static/v1?label=java&message=language&color=blue&style=for-the-badge&logo=JAVA)
 ![Badge](https://img.shields.io/static/v1?label=thread&message=paralell%20programming&color=lightblue&style=for-the-badge&logo=THREAD)
 
+![Badge](https://img.shields.io/static/v1?label=maven&message=framework&color=green&style=for-the-badge&logo=MAVEN)
 ![Badge](https://img.shields.io/static/v1?label=spark&message=framework&color=green&style=for-the-badge&logo=SPARK)
 ![Badge](https://img.shields.io/static/v1?label=JUnit&message=framework&color=green&style=for-the-badge&logo=JUNIT)
 
