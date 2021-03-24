@@ -80,79 +80,80 @@ Tenho sede de aprender e amo ser desafiado (me faço desafios muitas vezes), amo
 ### Idiomas
 
 ![Badge](https://img.shields.io/static/v1?label=inglês&message=técnico&color=lightseagreen&style=for-the-badge&logo=english)
-![Badge](https://img.shields.io/static/v1?label=Portugues&message=nativo&color=lightseagreen&style=for-the-badge&logo=english)
+![Badge](https://img.shields.io/static/v1?label=Portugues&message=nativo&color=lightseagreen&style=for-the-badge&logo=portuguese)
+
 <hr/>
   
-  ## Formação
-  #####  Técnico em Informática Industrial (2012-2013)
-  CEFET-MG Campus Timóteo
-  
-  Timóteo - MG
+## Formação
+#####  Técnico em Informática Industrial (2012-2013)
+CEFET-MG Campus Timóteo
 
-  <details>
-    <summary>Mais detalhes</summary>
-    
-    1. Programação em Java com Orientação a Objetos
+Timóteo - MG
 
-    2. Conhecimentos de eletrônica e elétrica básica
+<details>
+<summary>Mais detalhes</summary>
 
-    4. Técnicas de Engenharia de Software
+1. Programação em Java com Orientação a Objetos
 
-       - Casos de uso.
+2. Conhecimentos de eletrônica e elétrica básica
 
-       - Diagrama de fluxo, atividades, dentre outros.
+4. Técnicas de Engenharia de Software
 
-       - Softwares de UML.
+    - Casos de uso.
 
-    5. Linguagens e técnicas para bancos de dados.
+    - Diagrama de fluxo, atividades, dentre outros.
 
-       - SQL
+    - Softwares de UML.
 
-       - MySQL
+5. Linguagens e técnicas para bancos de dados.
 
-    6. Conhecimentos de sistemas de automação.
+    - SQL
 
-    7. Conhecimento sobre Redes de computadores.
+    - MySQL
 
-  </details>
+6. Conhecimentos de sistemas de automação.
 
-  <hr>
+7. Conhecimento sobre Redes de computadores.
 
-  #####  Engenharia da Computação (2014-2019)
-  CEFET-MG Campus Timóteo
-  
-  Timóteo - MG
+</details>
 
-  <details>
-    <summary>Mais detalhes</summary>
+<hr>
 
-    1. Programação em diversos paradigmas, principalmente Orientação a Objetos
+#####  Engenharia da Computação (2014-2019)
+CEFET-MG Campus Timóteo
 
-    2. Conhecimentos desde os níveis de hardware
+Timóteo - MG
 
-       - Programação em VHDL
+<details>
+<summary>Mais detalhes</summary>
 
-       - Programação de microcontroladores
+1. Programação em diversos paradigmas, principalmente Orientação a Objetos
 
-    3. Programação de software de renderização 3D e 2D
+2. Conhecimentos desde os níveis de hardware
 
-    4. Técnicas de Engenharia de Software
+    - Programação em VHDL
 
-       - Casos de uso.
+    - Programação de microcontroladores
 
-       - Diagrama de fluxo, atividades, dentre outros.
+3. Programação de software de renderização 3D e 2D
 
-       - Softwares de UML.
+4. Técnicas de Engenharia de Software
 
-    5. Linguagens e técnicas para bancos de dados
+    - Casos de uso.
 
-       - SQL
+    - Diagrama de fluxo, atividades, dentre outros.
 
-       - MySQL
+    - Softwares de UML.
 
-    6. Conhecimento sobre Redes de computadores.
+5. Linguagens e técnicas para bancos de dados
 
-  </details>
+    - SQL
+
+    - MySQL
+
+6. Conhecimento sobre Redes de computadores.
+
+</details>
 
 <hr/>
 
