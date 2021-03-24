@@ -23,76 +23,92 @@ Tenho sede de aprender e amo ser desafiado (me faço desafios muitas vezes), amo
 
 ## Principais Informações
 
+Esta seção é para ver quais tecnologias conheço e se faz sentido para você, leitor.
+
+<details>
+<summary>Mais detalhes</summary>
+
 ### Competências
 
-![Badge](https://img.shields.io/static/v1?label=Ética&color=crimson&style=for-the-badge&logo=competencia)
+![Badge](https://img.shields.io/static/v1?label=Ética&message=Criatividade&color=crimson&style=for-the-badge&logo=competencia)
 ![Badge](https://img.shields.io/static/v1?label=Flexbilidade&message=Competência&color=crimson&style=for-the-badge&logo=competencia)
-![Badge](https://img.shields.io/static/v1?label=Equilíbrio%20Emocional&message=Competência&color=crimson&style=for-the-badge&logo=competencia)
-![Badge](https://img.shields.io/static/v1?label=Criatividade&message=Competência&color=crimson&style=for-the-badge&logo=competencia)
-![Badge](https://img.shields.io/static/v1?label=Energia&message=Competência&color=crimson&style=for-the-badge&logo=competencia)
-![Badge](https://img.shields.io/static/v1?label=Focado&message=Competência&color=crimson&style=for-the-badge&logo=competencia)
-![Badge](https://img.shields.io/static/v1?label=Resiliente&message=Competência&color=crimson&style=for-the-badge&logo=competencia)
-![Badge](https://img.shields.io/static/v1?label=Persistente&message=Competência&color=crimson&style=for-the-badge&logo=competencia)
+![Badge](https://img.shields.io/static/v1?label=Equilíbrio%20Emocional&message=Resiliente&color=crimson&style=for-the-badge&logo=competencia)
+![Badge](https://img.shields.io/static/v1?label=Criatividade&message=Energia&color=crimson&style=for-the-badge&logo=competencia)
+![Badge](https://img.shields.io/static/v1?label=Focado&message=Persistente&color=crimson&style=for-the-badge&logo=competencia)
 
 ### Habilidades de Desenvolvimento
 
 #### Paradigmas
 
-![Badge](https://img.shields.io/static/v1?label=Estruturado&message=Paradigma&color=darkviolet&style=for-the-badge&logo=competencia)
-![Badge](https://img.shields.io/static/v1?label=Imperativo&message=Paradigma&color=darkviolet&style=for-the-badge&logo=competencia)
-![Badge](https://img.shields.io/static/v1?label=Estruturado&message=Paradigma&color=darkviolet&style=for-the-badge&logo=competencia)
+![Badge](https://img.shields.io/static/v1?label=Estruturado&message=Domínio%20Total&color=darkviolet&style=for-the-badge&logo=competencia)
+![Badge](https://img.shields.io/static/v1?label=Imperativo&message=Domínio%20Total&color=darkviolet&style=for-the-badge&logo=competencia)
+![Badge](https://img.shields.io/static/v1?label=Estruturado&message=Domínio%20Total&color=darkviolet&style=for-the-badge&logo=competencia)
 
 #### Linguagens
 
-![Badge](https://img.shields.io/static/v1?label=Java&message=Linguagem&color=blue&style=for-the-badge&logo=competencia)
-![Badge](https://img.shields.io/static/v1?label=c%23&message=Linguagem&color=blue&style=for-the-badge&logo=competencia)
-![Badge](https://img.shields.io/static/v1?label=Javascript&message=Linguagem&color=blue&style=for-the-badge&logo=competencia)
-![Badge](https://img.shields.io/static/v1?label=PHP&message=Linguagem&color=blue&style=for-the-badge&logo=competencia)
-![Badge](https://img.shields.io/static/v1?label=HTML5&message=Linguagem&color=blue&style=for-the-badge&logo=competencia)
-![Badge](https://img.shields.io/static/v1?label=CSS3&message=Linguagem&color=blue&style=for-the-badge&logo=competencia)
-![Badge](https://img.shields.io/static/v1?label=WebGL&message=Linguagem&color=blue&style=for-the-badge&logo=competencia)
-![Badge](https://img.shields.io/static/v1?label=Assembly&message=Linguagem&color=blue&style=for-the-badge&logo=competencia)
-![Badge](https://img.shields.io/static/v1?label=PL/SQL&message=Linguagem&color=blue&style=for-the-badge&logo=competencia)
-![Badge](https://img.shields.io/static/v1?label=SQL&message=Linguagem&color=blue&style=for-the-badge&logo=competencia)
-![Badge](https://img.shields.io/static/v1?label=VHDL&message=Linguagem&color=blue&style=for-the-badge&logo=competencia)
+![Badge](https://img.shields.io/static/v1?label=Java&message=Domínio%20Total&color=blue&style=for-the-badge&logo=competencia)
+![Badge](https://img.shields.io/static/v1?label=c%23&message=Intermediário&color=blue&style=for-the-badge&logo=competencia)
+![Badge](https://img.shields.io/static/v1?label=Javascript&message=Avançado&color=blue&style=for-the-badge&logo=competencia)
+![Badge](https://img.shields.io/static/v1?label=PHP&message=Básico&color=blue&style=for-the-badge&logo=competencia)
+![Badge](https://img.shields.io/static/v1?label=HTML5&message=Domínio%20Total&color=blue&style=for-the-badge&logo=competencia)
+![Badge](https://img.shields.io/static/v1?label=CSS3&message=Domínio%20Total&color=blue&style=for-the-badge&logo=competencia)
+![Badge](https://img.shields.io/static/v1?label=WebGL&message=Básico&color=blue&style=for-the-badge&logo=competencia)
+![Badge](https://img.shields.io/static/v1?label=Assembly&message=Básico&color=blue&style=for-the-badge&logo=competencia)
+![Badge](https://img.shields.io/static/v1?label=PL/SQL&message=Básico&color=blue&style=for-the-badge&logo=competencia)
+![Badge](https://img.shields.io/static/v1?label=SQL&message=Domínio%20Total&color=blue&style=for-the-badge&logo=competencia)
+![Badge](https://img.shields.io/static/v1?label=VHDL&message=Intermediário&color=blue&style=for-the-badge&logo=competencia)
 
 #### Bibliotecas e Frameworks
 
-![Badge](https://img.shields.io/static/v1?label=JSF&message=Framework&color=green&style=for-the-badge&logo=JSF)
-![Badge](https://img.shields.io/static/v1?label=JPA&message=Framework&color=green&style=for-the-badge&logo=JPA)
-![Badge](https://img.shields.io/static/v1?label=EJB&message=Framework&color=green&style=for-the-badge&logo=EJB)
-![Badge](https://img.shields.io/static/v1?label=Springboot&message=Framework&color=green&style=for-the-badge&logo=spring)
-![Badge](https://img.shields.io/static/v1?label=three.js&message=Framework&color=green&style=for-the-badge&logo=JPA)
-![Badge](https://img.shields.io/static/v1?label=react&message=Framework&color=green&style=for-the-badge&logo=react)
-![Badge](https://img.shields.io/static/v1?label=react-router&message=Framework&color=green&style=for-the-badge&logo=react)
-![Badge](https://img.shields.io/static/v1?label=react%20native&message=Framework&color=green&style=for-the-badge&logo=react)
-![Badge](https://img.shields.io/static/v1?label=aspose&message=Framework&color=green&style=for-the-badge&logo=aspose)
-![Badge](https://img.shields.io/static/v1?label=Angular&message=Framework&color=green&style=for-the-badge&logo=angular)
-![Badge](https://img.shields.io/static/v1?label=apache%20camel&message=Framework&color=green&style=for-the-badge&logo=camel)
-![Badge](https://img.shields.io/static/v1?label=Junit&message=Framework&color=green&style=for-the-badge&logo=junit)
-![Badge](https://img.shields.io/static/v1?label=bootstrap&message=Framework&color=green&style=for-the-badge&logo=bootstrap)
-![Badge](https://img.shields.io/static/v1?label=jquery&message=Framework&color=green&style=for-the-badge&logo=jquery)
+![Badge](https://img.shields.io/static/v1?label=JSF&message=Domínio%20Total&color=green&style=for-the-badge&logo=JSF)
+![Badge](https://img.shields.io/static/v1?label=JPA&message=Domínio%20Total&color=green&style=for-the-badge&logo=JPA)
+![Badge](https://img.shields.io/static/v1?label=EJB&message=Domínio%20Total&color=green&style=for-the-badge&logo=EJB)
+![Badge](https://img.shields.io/static/v1?label=Springboot&message=Domínio%20Total&color=green&style=for-the-badge&logo=spring)
+![Badge](https://img.shields.io/static/v1?label=three.js&message=Domínio%20Total&color=green&style=for-the-badge&logo=JPA)
+![Badge](https://img.shields.io/static/v1?label=react&message=Domínio%20Total&color=green&style=for-the-badge&logo=react)
+![Badge](https://img.shields.io/static/v1?label=react-router&message=Domínio%20Total&color=green&style=for-the-badge&logo=react)
+![Badge](https://img.shields.io/static/v1?label=react%20native&message=Domínio%20Total&color=green&style=for-the-badge&logo=react)
+![Badge](https://img.shields.io/static/v1?label=aspose&message=Básico&color=green&style=for-the-badge&logo=aspose)
+![Badge](https://img.shields.io/static/v1?label=Angular&message=Básico&color=green&style=for-the-badge&logo=angular)
+![Badge](https://img.shields.io/static/v1?label=apache%20camel&message=Intermediário&color=green&style=for-the-badge&logo=camel)
+![Badge](https://img.shields.io/static/v1?label=Junit&message=Intermediário&color=green&style=for-the-badge&logo=junit)
+![Badge](https://img.shields.io/static/v1?label=bootstrap&message=Domínio%20Total&color=green&style=for-the-badge&logo=bootstrap)
+![Badge](https://img.shields.io/static/v1?label=jquery&message=Domínio%20Total&color=green&style=for-the-badge&logo=jquery)
 
 #### IDEs e Software
 
-![Badge](https://img.shields.io/static/v1?label=jquery&message=Framework&color=green&style=for-the-badge&logo=jquery)
+![Badge](https://img.shields.io/static/v1?label=eclipse&message=IDE&style=for-the-badge&color=purple&logo=eclipse)
+![Badge](https://img.shields.io/static/v1?label=visual%20studio&message=IDE&style=for-the-badge&color=purple&logo=visualstudio)
 
 #### Servidores de Automação
 
-![Badge](https://img.shields.io/static/v1?label=jenkins&message=Framework&color=green&style=for-the-badge&logo=jenkins)
-![Badge](https://img.shields.io/static/v1?label=heroku&message=Framework&color=green&style=for-the-badge&logo=heroku)
-![Badge](https://img.shields.io/static/v1?label=openshift&message=Framework&color=green&style=for-the-badge&logo=openshift)
-![Badge](https://img.shields.io/static/v1?label=azure&message=Framework&color=green&style=for-the-badge&logo=azure)
+![Badge](https://img.shields.io/static/v1?label=jenkins&message=Básico&color=darkkhaki&style=for-the-badge&logo=jenkins)
+![Badge](https://img.shields.io/static/v1?label=heroku&message=Básico&color=darkkhaki&style=for-the-badge&logo=heroku)
+![Badge](https://img.shields.io/static/v1?label=openshift&message=Básico&color=darkkhaki&style=for-the-badge&logo=openshift)
+![Badge](https://img.shields.io/static/v1?label=azure&message=Básico&color=darkkhaki&style=for-the-badge&logo=azure)
 
 #### Controle de Versão
 
-![Badge](https://img.shields.io/static/v1?label=Svn&message=Framework&color=green&style=for-the-badge&logo=SVN)
-![Badge](https://img.shields.io/static/v1?label=Git&message=Framework&color=green&style=for-the-badge&logo=Git)
+![Badge](https://img.shields.io/static/v1?label=Svn&message=Intermediário&color=yellow&style=for-the-badge&logo=SVN)
+![Badge](https://img.shields.io/static/v1?label=Git&message=Intermediário&color=yellow&style=for-the-badge&logo=Git)
+
+#### Metodologias Ágeis
+
+![Badge](https://img.shields.io/static/v1?label=SCRUM&message=Metodologia%20Ágil&color=black&style=for-the-badge&logo=SCRUM)
+![Badge](https://img.shields.io/static/v1?label=Kanban&message=Metodologia%20Ágil&color=black&style=for-the-badge&logo=Kanban)
+
+#### Ferramentas Ágeis
+
+![Badge](https://img.shields.io/static/v1?label=Rally&message=Básico&color=black&style=for-the-badge&logo=Rally)
+![Badge](https://img.shields.io/static/v1?label=Jira&message=Básico&color=black&style=for-the-badge&logo=Jira)
+![Badge](https://img.shields.io/static/v1?label=Jazz&message=Básico&color=black&style=for-the-badge&logo=Ibm)
 
 ### Idiomas
 
 ![Badge](https://img.shields.io/static/v1?label=inglês&message=técnico&color=lightseagreen&style=for-the-badge&logo=english)
 ![Badge](https://img.shields.io/static/v1?label=Portugues&message=nativo&color=lightseagreen&style=for-the-badge&logo=portuguese)
+
+</details>
 
 <hr/>
   
