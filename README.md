@@ -25,7 +25,7 @@ Tenho sede de aprender e amo ser desafiado (me faço desafios muitas vezes), amo
 
 ### Competências
 
-![Badge](https://img.shields.io/static/v1?label=Ética&message=Competência&color=crimson&style=for-the-badge&logo=competencia)
+![Badge](https://img.shields.io/static/v1?label=Ética&color=crimson&style=for-the-badge&logo=competencia)
 ![Badge](https://img.shields.io/static/v1?label=Flexbilidade&message=Competência&color=crimson&style=for-the-badge&logo=competencia)
 ![Badge](https://img.shields.io/static/v1?label=Equilíbrio%20Emocional&message=Competência&color=crimson&style=for-the-badge&logo=competencia)
 ![Badge](https://img.shields.io/static/v1?label=Criatividade&message=Competência&color=crimson&style=for-the-badge&logo=competencia)
@@ -76,6 +76,18 @@ Tenho sede de aprender e amo ser desafiado (me faço desafios muitas vezes), amo
 #### IDEs e Software
 
 ![Badge](https://img.shields.io/static/v1?label=jquery&message=Framework&color=green&style=for-the-badge&logo=jquery)
+
+#### Servidores de Automação
+
+![Badge](https://img.shields.io/static/v1?label=jenkins&message=Framework&color=green&style=for-the-badge&logo=jenkins)
+![Badge](https://img.shields.io/static/v1?label=heroku&message=Framework&color=green&style=for-the-badge&logo=heroku)
+![Badge](https://img.shields.io/static/v1?label=openshift&message=Framework&color=green&style=for-the-badge&logo=openshift)
+![Badge](https://img.shields.io/static/v1?label=azure&message=Framework&color=green&style=for-the-badge&logo=azure)
+
+#### Controle de Versão
+
+![Badge](https://img.shields.io/static/v1?label=Svn&message=Framework&color=green&style=for-the-badge&logo=SVN)
+![Badge](https://img.shields.io/static/v1?label=Git&message=Framework&color=green&style=for-the-badge&logo=Git)
 
 ### Idiomas
 
