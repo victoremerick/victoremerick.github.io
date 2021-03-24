@@ -232,7 +232,7 @@ Tenho sede de aprender e amo ser desafiado (me faço desafios muitas vezes), amo
   ![Badge](https://img.shields.io/static/v1?label=Maven&message=Automação%20de%20Copmilação&color=yellowgreen&style=for-the-badge&logo=maven)
   ![Badge](https://img.shields.io/static/v1?label=Microsserviços&message=Arquitetura%20da%20Aplicação&color=chocolate&style=for-the-badge&logo=architecture)
   ![Badge](https://img.shields.io/static/v1?label=Swagger&message=Descrição%20de%20API&color=chocolate&style=for-the-badge&logo=swagger)
-![Badge](https://img.shields.io/static/v1?label=GSon&message=library&style=for-the-badge&logo=JSON)
+  ![Badge](https://img.shields.io/static/v1?label=GSon&message=library&style=for-the-badge&logo=JSON)
 </details>
 
 <hr/>
@@ -251,6 +251,7 @@ Tenho sede de aprender e amo ser desafiado (me faço desafios muitas vezes), amo
 
 <details>
 <summary>Tecnologias</summary>
+
   ![Badge](https://img.shields.io/static/v1?label=java&message=Linguagem&color=blue&style=for-the-badge&logo=JAVA)
   ![Badge](https://img.shields.io/static/v1?label=JSF&message=framework&color=green&style=for-the-badge&logo=JSF)
   ![Badge](https://img.shields.io/static/v1?label=JPA&message=framework&color=green&style=for-the-badge&logo=JPA)
@@ -287,6 +288,7 @@ Tenho sede de aprender e amo ser desafiado (me faço desafios muitas vezes), amo
 
 <details>
 <summary>Tecnologias</summary>
+
   ![Badge](https://img.shields.io/static/v1?label=C%23&message=Linguagem&color=blue&style=for-the-badge&logo=C%23)
   ![Badge](https://img.shields.io/static/v1?label=DTO&message=framework&color=green&style=for-the-badge&logo=DTO)
   ![Badge](https://img.shields.io/static/v1?label=ASP.NET&message=framework&color=green&style=for-the-badge&logo=ASP)
@@ -322,15 +324,16 @@ Tenho sede de aprender e amo ser desafiado (me faço desafios muitas vezes), amo
 
 <details>
 <summary>Tecnologias</summary>
-  ![Badge](https://img.shields.io/static/v1?label=java&message=Linguagem&color=blue&style=for-the-badge&logo=JAVA) 
-  ![Badge](https://img.shields.io/static/v1?label=Swing&message=Interface&color=darkolivegreen&style=for-the-badge&logo=java) 
-  ![Badge](https://img.shields.io/static/v1?label=SwingX&message=Interface&color=darkolivegreen&style=for-the-badge&logo=swingx) 
-  ![Badge](https://img.shields.io/static/v1?label=SQLite3&message=Banco%20de%20dados&color=gold&style=for-the-badge&logo=sqlite)
-  ![Badge](https://img.shields.io/static/v1?label=JPA&message=Framework&color=green&style=for-the-badge&logo=jpa)
-  ![Badge](https://img.shields.io/static/v1?label=Integração%20com%20Dropbox&message=library&style=for-the-badge&logo=jpa)
-  ![Badge](https://img.shields.io/static/v1?label=Integração%20com%20FTP&message=library&style=for-the-badge&logo=jpa)
-  ![Badge](https://img.shields.io/static/v1?label=Envio%20de%20Email&message=library&style=for-the-badge&logo=jpa)
-  ![Badge](https://img.shields.io/static/v1?label=netbeans&message=IDE&style=for-the-badge&color=purple&logo=netbeans)
-  ![Badge](https://img.shields.io/static/v1?label=Monolítica&message=Arquitetura%20da%20Aplicação&color=chocolate&style=for-the-badge&logo=architecture)
-  ![Badge](https://img.shields.io/static/v1?label=Desktop&message=Tipo%20de%20Aplicação&color=chocolate&style=for-the-badge&logo=architecture)
+
+![Badge](https://img.shields.io/static/v1?label=java&message=Linguagem&color=blue&style=for-the-badge&logo=JAVA) 
+![Badge](https://img.shields.io/static/v1?label=Swing&message=Interface&color=darkolivegreen&style=for-the-badge&logo=java) 
+![Badge](https://img.shields.io/static/v1?label=SwingX&message=Interface&color=darkolivegreen&style=for-the-badge&logo=swingx) 
+![Badge](https://img.shields.io/static/v1?label=SQLite3&message=Banco%20de%20dados&color=gold&style=for-the-badge&logo=sqlite)
+![Badge](https://img.shields.io/static/v1?label=JPA&message=Framework&color=green&style=for-the-badge&logo=jpa)
+![Badge](https://img.shields.io/static/v1?label=Integração%20com%20Dropbox&message=library&style=for-the-badge&logo=jpa)
+![Badge](https://img.shields.io/static/v1?label=Integração%20com%20FTP&message=library&style=for-the-badge&logo=jpa)
+![Badge](https://img.shields.io/static/v1?label=Envio%20de%20Email&message=library&style=for-the-badge&logo=jpa)
+![Badge](https://img.shields.io/static/v1?label=netbeans&message=IDE&style=for-the-badge&color=purple&logo=netbeans)
+![Badge](https://img.shields.io/static/v1?label=Monolítica&message=Arquitetura%20da%20Aplicação&color=chocolate&style=for-the-badge&logo=architecture)
+![Badge](https://img.shields.io/static/v1?label=Desktop&message=Tipo%20de%20Aplicação&color=chocolate&style=for-the-badge&logo=architecture)
 </details>
