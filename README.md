@@ -91,17 +91,29 @@ Tenho sede de aprender e amo ser desafiado (me faço desafios muitas vezes), amo
 
   <details>
     <summary>Mais detalhes</summary>
+    
     1. Programação em Java com Orientação a Objetos
+
     2. Conhecimentos de eletrônica e elétrica básica
+
     4. Técnicas de Engenharia de Software
-       * Casos de uso.
-       * Diagrama de fluxo, atividades, dentre outros.
-       * Softwares de UML.
+
+       - Casos de uso.
+
+       - Diagrama de fluxo, atividades, dentre outros.
+
+       - Softwares de UML.
+
     5. Linguagens e técnicas para bancos de dados.
-       * SQL
-       * MySQL
+
+       - SQL
+
+       - MySQL
+
     6. Conhecimentos de sistemas de automação.
+
     7. Conhecimento sobre Redes de computadores.
+
   </details>
 
   <hr>
@@ -113,19 +125,33 @@ Tenho sede de aprender e amo ser desafiado (me faço desafios muitas vezes), amo
 
   <details>
     <summary>Mais detalhes</summary>
+
     1. Programação em diversos paradigmas, principalmente Orientação a Objetos
+
     2. Conhecimentos desde os níveis de hardware
-       * Programação em VHDL
-       * Programação de microcontroladores
+
+       - Programação em VHDL
+
+       - Programação de microcontroladores
+
     3. Programação de software de renderização 3D e 2D
+
     4. Técnicas de Engenharia de Software
-       * Casos de uso.
-       * Diagrama de fluxo, atividades, dentre outros.
-       * Softwares de UML.
+
+       - Casos de uso.
+
+       - Diagrama de fluxo, atividades, dentre outros.
+
+       - Softwares de UML.
+
     5. Linguagens e técnicas para bancos de dados
-       * SQL
-       * MySQL
+
+       - SQL
+
+       - MySQL
+
     6. Conhecimento sobre Redes de computadores.
+
   </details>
 
 <hr/>
